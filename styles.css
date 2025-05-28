@@ -1,0 +1,153 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(220, 186, 141);
+  font-family: Arial, sans-serif;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 2em;
+  background-color: #f2e0c6;
+}
+
+.heading {
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(14, 15, 14);
+}
+
+.navbar-items {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+  font-size: 1.2em;
+}
+
+.navbar-items a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-items a:hover {
+  text-decoration: underline;
+}
+
+/* Main layout */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 2em;
+}
+
+/* Introduction section */
+.intro-section {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.intro-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+/* Articles */
+.articles-section {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.article {
+  background: rgb(158, 116, 61);
+  border-radius: 20px;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.article h2 {
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.article p {
+  margin: 0.5em 0;
+}
+
+.article a {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: #0645ad;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* Aside section */
+.aside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.newsletter,
+.categories {
+  background: rgb(158, 116, 61);
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.newsletter h2,
+.categories h2 {
+  margin-bottom: 1em;
+}
+
+/* Newsletter form */
+input, button {
+     background: rgb(229, 202, 166);
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  border: 1px solid #333;
+  font-size: 1em;
+}
+
+/* Footer */
+footer.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.social-media a {
+  color: lightblue;
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
