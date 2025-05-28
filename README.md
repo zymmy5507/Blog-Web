@@ -58,10 +58,9 @@ This repository demonstrates a **semantic blog homepage**, using:
 - No overuse of `<div>`s
 - Minimal, modern CSS styling
 
-### 🔗 Live Demo (if hosted)
-[Click here to view the site](#)
+
+
 
 ---
 
-## 📌 Folder Structure
 
